@@ -1,10 +1,9 @@
-import io
 import json
 import os
 
 import datetime
-import time
-from flask import Flask, render_template, request, url_for, redirect
+
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
